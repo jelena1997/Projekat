@@ -1,0 +1,19 @@
+{
+  "name": "agencija",
+  "version": "1.0.0",
+  "description": "Aplikacija",
+  "main": "server.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jelena1997/ItehProjekatNovi.git"
+  },
+  "author": "Jelena Aleksa Ilija",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jelena1997/ItehProjekatNovi/issues"
+  },
+  "homepage": "https://github.com/jelena1997/ItehProjekatNovi#readme"
+}
