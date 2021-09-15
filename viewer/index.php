@@ -12,10 +12,7 @@
 <link href="css/flexslider.css" rel="stylesheet" /> 
 <link href="css/style.css" rel="stylesheet" />
  
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+
 
 </head>
 <body>
@@ -25,7 +22,7 @@
     <div class="row">
       <div class="col-md-12"> 	  
         <p class="pull-left hidden-xs"><i class="fa fa-clock-o"></i><span>Ponedeljak - Subota 8.00 - 18.00.</span></p>
-        <p class="pull-right"><i class="fa fa-phone"></i>011 2589 147</p>
+        <p class="pull-right"><i class="fa fa-phone"></i>+381114144284</p>
       </div>
     </div>
   </div>
@@ -63,16 +60,16 @@
               <li>
                 <img src="img/slides/1.jpg" alt="" />
                 <div class="flex-caption">
-                    <h3>Oktopod Travel</h3> 
-					<p>Letovanja, zimovanja i izleti</p> 
+                    <h3>Travelapp</h3> 
+					<p>Letovanja, zimovanja, izleti</p> 
 					 
                 </div>
               </li>
               <li>
                 <img src="img/slides/2.jpg" alt="" />
                 <div class="flex-caption">
-                    <h3>Uživajte u životu</h3> 
-					<p>Putujte sa nama</p> 
+                    <h3 style="text-align:left" >Uživajte u životu</h3> 
+					<p style="text-align:left">Putujte sa nama</p> 
 					 
                 </div>
               </li>
@@ -161,60 +158,23 @@
 		 
 	<div>
 
-<h2>Konvertor</h2>
-<div id="demo">
-<h1>Objasnjenje</h1>
-<button type="button" style="background-color: green; color: white;" onclick="loadDoc()">Kako se koristi</button>
+<h2>Današnja kursna lista</h2>
+<?php echo $date = date('m/d/Y h:i:s a', time());?>
 <br>
-<br>
+<iframe src="https://kursna-lista.com/gedzeti/gadget3white.php" frameborder="1" height="100" scrolling="no" width="300"></iframe>
+  <br>
+  <h2>Vreme u Beogradu za narednih 7 dana</h2>
+
+
+<div id="f9ecfd7a82031b37f1d66b8c3e25a351" class="ww-informers-box-854753">
+  <p class="ww-informers-box-854754">
+    <a href="https://world-weather.info/forecast/serbia/belgrade/">Vreme u Beogradu</a>
+    <br>
+    <a href="https://world-weather.info/forecast/usa/new_york/"></a>
+  </p>
 </div>
-<form method="GET" action="">
-Iznos: <input style="margin-left: 17px;" type = "text" name = "iznos"/><br/>
-<br>
-Iz valute: <input type = "text" name = "izvalute"/><br/>
-<br>
-U valutu: <input type = "text" name = "uvalutu"/><br/>
-<br>
-<input style="background-color: green; color: white;" type = "submit" value="Konvertuj"/>
-</form>
-<?php if (!empty ($_GET['iznos'])&&!empty ($_GET['izvalute'])&&!empty ($_GET['uvalutu'])){?>
-<?php
-$iznos = $_GET['iznos'];
-$izvalute = $_GET['izvalute'];
-$uvalutu = $_GET['uvalutu'];
-$url = 'https://api.kursna-lista.info/38f8d1fc2fe551cb41622c765e3fd42e/konvertor/'.$izvalute.'/'.$uvalutu.'/'.$iznos;
-
-$curl = curl_init($url);
-//za FON-ovu mrezu treba podesiti proksi. Za ostale mreze linije za proksi treba da budu pod komentarom
-//curl_setopt($curl, CURLOPT_PROXY, 'proxy.fon.rs:8080');
-curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($curl, CURLOPT_POST, false);
-$curl_odgovor = curl_exec($curl);
-$parsiran_json = json_decode ($curl_odgovor);
-
-?>
-<h2>Rezultat:</h2>
-<p><?php echo $iznos;?> <?php echo $izvalute;?> vredi <?php echo $parsiran_json->result->value;?> <?php echo $uvalutu;?>.</p>
-
-<?php
-}
-?>
-
-<?php
-//Zameniti URL putanjom serverskog dela REST servisa i zameniti vrednost API ključa
-$url='api.worldweatheronline.com/premium/v1/weather.ashx?q=44.804%2C20.4651&format=json&num_of_days=5&key=52facc24da0141a38e1124719200402';
-$curl = curl_init($url);
-//za FON-ovu mrezu treba podesiti proksi. Za ostale mreze linije za proksi treba da budu pod komentarom
-//curl_setopt($curl, CURLOPT_PROXY, 'proxy.fon.rs:8080');
-curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($curl, CURLOPT_POST, false);
-$curl_odgovor = curl_exec($curl);
-curl_close($curl);
-$parsiran_json = json_decode ($curl_odgovor);
-$temperatura = $parsiran_json->data->current_condition[0]->temp_C;
-?>
-
-<p style="text-align: center;">Trenutna temperatura u Beogradu je <?php echo $temperatura;?> *C.</p>
+<script async type="text/javascript" charset="utf-8" src="https://world-weather.info/wwinformer.php?userid=f9ecfd7a82031b37f1d66b8c3e25a351"></script>
+<style>.ww-informers-box-854754{-webkit-animation-name:ww-informers54;animation-name:ww-informers54;-webkit-animation-duration:1.5s;animation-duration:1.5s;white-space:nowrap;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;font-size:12px;font-family:Arial;line-height:18px;text-align:center}@-webkit-keyframes ww-informers54{0%,80%{opacity:0}100%{opacity:1}}@keyframes ww-informers54{0%,80%{opacity:0}100%{opacity:1}}</style>
 	</div>
 	
 	
@@ -240,11 +200,9 @@ $temperatura = $parsiran_json->data->current_condition[0]->temp_C;
 				</div>
 				<div class="col-lg-6">
 					<ul class="social-network">
-						<li><a href="https://www.facebook.com/oktopodtravel/" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://twitter.com/oktopod_travel?lang=en" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="https://rs.linkedin.com/in/nenad-vilotic-058534b6" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="https://www.pinterest.com/oktopodtravel/" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="http://www.oktopod.rs/" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="https://www.facebook.com/WayoutBeograd/" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.instagram.com/wayout.rs/" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.wayout.rs/" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
 					</ul>
 				</div>
 			</div>

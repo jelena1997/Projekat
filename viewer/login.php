@@ -138,11 +138,9 @@ include('../model/konekcija.php');
 				</div>
 				<div class="col-lg-6">
 					<ul class="social-network">
-						<li><a href="https://www.facebook.com/oktopodtravel/" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://twitter.com/oktopod_travel?lang=en" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="https://rs.linkedin.com/in/nenad-vilotic-058534b6" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="https://www.pinterest.com/oktopodtravel/" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="http://www.oktopod.rs/" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="https://www.facebook.com/WayoutBeograd/" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.instagram.com/wayout.rs/" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.wayout.rs/" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
 					</ul>
 				</div>
 			</div>

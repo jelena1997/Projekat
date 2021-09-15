@@ -162,7 +162,7 @@ include('../model/konekcija.php');
 		
 				<div class="row footer_bottom">
 				    <div class="copy" style="text-align: center;">
-			           <p style="text-align: center;">© 2020 Template by FON</p>
+			           <p style="text-align: center;">© 2021 Template by Jelena, Aleksa, Ilija</p>
 		            </div>
 					  
    				</div>

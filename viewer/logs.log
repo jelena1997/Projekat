@@ -1,0 +1,12 @@
+[14-Sep-2021 22:22:59 Europe/Berlin] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in C:\xampp\htdocs\agencija\viewer\cart.php on line 110
+[14-Sep-2021 22:23:17 Europe/Berlin] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in C:\xampp\htdocs\agencija\viewer\cart.php on line 110
+[14-Sep-2021 22:37:46 Europe/Berlin] PHP Notice:  Trying to get property 'proizvodi' of non-object in C:\xampp\htdocs\agencija\viewer\service.php on line 180
+[14-Sep-2021 22:37:46 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\agencija\viewer\service.php on line 180
+[14-Sep-2021 22:38:09 Europe/Berlin] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in C:\xampp\htdocs\agencija\viewer\cart.php on line 110
+[15-Sep-2021 11:38:29 Europe/Berlin] PHP Notice:  Undefined variable: poruka in C:\xampp\htdocs\agencija\viewer\putovanja.php on line 75
+[15-Sep-2021 12:06:56 Europe/Berlin] PHP Notice:  Trying to get property 'proizvodi' of non-object in C:\xampp\htdocs\agencija\viewer\service.php on line 180
+[15-Sep-2021 12:06:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\agencija\viewer\service.php on line 180
+[15-Sep-2021 13:26:43 Europe/Berlin] PHP Notice:  Trying to get property 'proizvodi' of non-object in C:\xampp\htdocs\agencija\viewer\service.php on line 180
+[15-Sep-2021 13:26:43 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\agencija\viewer\service.php on line 180
+[15-Sep-2021 13:26:53 Europe/Berlin] PHP Notice:  Trying to get property 'proizvodi' of non-object in C:\xampp\htdocs\agencija\viewer\service.php on line 180
+[15-Sep-2021 13:26:53 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\agencija\viewer\service.php on line 180

@@ -64,7 +64,7 @@ $poruka = '';
 }
 </style>
 <meta charset="utf-8">
-<title>Oktopod</title>
+<title>Travelapp</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <!-- css -->
@@ -86,7 +86,7 @@ $poruka = '';
     <div class="row">
       <div class="col-md-12"> 	  
         <p class="pull-left hidden-xs"><i class="fa fa-clock-o"></i><span>Ponedeljak - Subota 8.00 - 18.00.</span></p>
-        <p class="pull-right"><i class="fa fa-phone"></i>011 2589 147</p>
+        <p class="pull-right"><i class="fa fa-phone"></i>+381114144284</p>
       </div>
     </div>
   </div>
@@ -296,17 +296,15 @@ $poruka = '';
 				<div class="col-lg-6">
 					<div class="copyright">
 						<p>
-							<span>&copy; FON </span>
+							<span>&copy; FON - Laboratorija za elektronsko poslovanje </span>
 						</p>
 					</div>
 				</div>
 				<div class="col-lg-6">
 					<ul class="social-network">
-						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="https://www.facebook.com/WayoutBeograd/" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.instagram.com/wayout.rs/" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.wayout.rs/" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
 					</ul>
 				</div>
 			</div>

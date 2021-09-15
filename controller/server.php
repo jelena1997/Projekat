@@ -1,14 +1,14 @@
 <?php
-//definiše se mime type
+// ovo definiše se mime type
 header("Content-type: application/xml");
-//konekcija ka bazi
+//sad se pravi konekcija ka bazi
 include("../model/konekcija.php");
-//priprema upita
+// a ovde je priprema upita
 $sql="SELECT * FROM proizvodi ORDER BY id ASC";
-//kreiranje XMLDOM dokumenta
+//ovo je valjda kreiranje XMLDOM dokumenta
 $dom = new DomDocument('1.0','utf-8');
 
-//dodaje se koreni element
+// koreni element
  $proizvodi = $dom->appendChild($dom->createElement('proizvodi'));
 
 //izvršavanje upita

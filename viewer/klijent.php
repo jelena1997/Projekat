@@ -1,6 +1,39 @@
 <!DOCTYPE html>
 <html>
+<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="../viewer/index.php">Početna</a></li>
+                        <li class="active"><a href="../viewer/login.php">Ulogujte se</a></li>
+                        <li class="active"><a href="../viewer/loginA.php">Admin</a></li>
+                        <li class="active"><a href="../viewer/klijent.php">Putovanja</a></li>
+
+                        <li><a href="../viewer/contact.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
 <head>
+<meta charset="utf-8">
+<title>Travelapp</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+<meta name="author" content="http://webthemez.com" />
+<!-- css -->
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet"> 
+<link href="css/flexslider.css" rel="stylesheet" /> 
+<link href="css/style.css" rel="stylesheet" />
 	<style>
 table {
   border-collapse: collapse;

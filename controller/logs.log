@@ -1,0 +1,2 @@
+[14-Sep-2021 22:22:56 Europe/Berlin] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in C:\xampp\htdocs\agencija\controller\zavrsi.php on line 13
+[14-Sep-2021 22:22:56 Europe/Berlin] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in C:\xampp\htdocs\agencija\controller\zavrsi.php on line 33
